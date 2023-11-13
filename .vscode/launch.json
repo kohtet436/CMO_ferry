@@ -1,0 +1,43 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "flutter_staging_debug",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--flavor",
+                "staging"
+            ]
+        },
+        {
+            "name": "flutter_prod_debug",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--flavor",
+                "prod"
+            ]
+        },
+        {
+            "name": "flutter_staging_release",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--release",
+                "--flavor",
+                "prod"
+            ]
+        },
+        {
+            "name": "flutter_prod_release",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--release",
+                "--flavor",
+                "prod"
+            ]
+        },
+    ]
+}
